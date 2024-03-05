@@ -1,0 +1,27 @@
+.cambiar-color2 {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    font-size: 50px;
+    color: blue;
+}
+
+ #div {
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    font-size: 50px;
+    color: blue;
+ }
+
+ .cambiar-color {
+    display: flex;
+ }
+
+ :root {
+    --color-primario: #ffffff;
+    --color-secundario: rosado;
+ }
+
+body {
+    background-color: var(--color-primario);
+}

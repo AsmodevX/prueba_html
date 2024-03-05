@@ -1,0 +1,19 @@
+.buenos-dias > div {
+    border: 10px solid red;
+    height: fit-content;
+    width: fit-content;
+}
+
+.buenos-dias {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 100px;
+    min-width: fit-content;
+    min-height: fit-content;
+}
