@@ -1,0 +1,29 @@
+.content {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    top: 70px;
+    left: 70px;
+    z-index: 1;
+}
+
+.content2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: green;
+    top: 50px;
+    left: 100px;
+    z-index: 0;
+}
+
+.content3 {
+    position: fixed;
+    top: 0px;
+    background-color: red;
+}
+
+body {
+    min-height: 150vh;
+}

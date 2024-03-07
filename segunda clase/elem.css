@@ -1,0 +1,34 @@
+.colorinput {
+    color: green;
+    background-color: black;
+}
+
+.colorinput::placeholder {
+    color: green;
+}
+
+.content {
+    background-color: blue;
+    height: 100vh;
+}
+
+.content:hover {
+    background-color: red;
+}
+
+.content > article {
+    background-color: green;
+}
+
+.content > article:nth-child(2) {
+    background-color: orange;
+}
+
+.content::before {
+    content: "👉";
+    border: 1px solid black;
+}
+
+.content > article::first-letter {
+    font-size: 2em;
+}

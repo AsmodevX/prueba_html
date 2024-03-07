@@ -1,0 +1,40 @@
+.colorinput {
+    color: green;
+    background-color: black;
+}
+
+.colorinput::placeholder {
+    color: green;
+}
+
+.content {
+    background-color: blue;
+    height: 100vh;
+}
+
+.content:hover {
+    background-color: red;
+}
+
+.content > article {
+    background-color: green;
+}
+
+.content > article:nth-child(2) {
+    background-color: orange;
+}
+
+@keyframes mover {
+    10% {
+        transform: translateX(0);
+        background-color: rgb(255, 255, 255);
+    }
+    50% {
+        transform: translateX(600px);
+        background-color: aquamarine;
+    }
+}
+
+.content > article:first-child {
+    animation: mover 4s infinite alternate;
+}

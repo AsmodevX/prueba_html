@@ -1,0 +1,36 @@
+.colorinput {
+    color: green;
+    background-color: black;
+}
+
+.colorinput::placeholder {
+    color: green;
+}
+
+.content {
+    background-color: blue;
+    height: 100vh;
+}
+
+.content:hover {
+    background-color: red;
+}
+
+.content > article {
+    background-color: green;
+}
+
+.content > article:nth-child(2) {
+    background-color: orange;
+}
+
+.content > article:first-child {
+    transform: rotate(180deg);
+}
+
+.content > article:hover {
+    background-color: yellow;
+}
+.content > article:first-child {
+    transition: background-color 1s ease;
+}

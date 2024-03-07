@@ -1,0 +1,59 @@
+.perrito {
+    max-width: 300px;
+    max-height: 300px;
+    filter: grayscale(100%);
+}
+
+.perrito2 {
+    max-width: 300px;
+    max-height: 300px;
+    filter: blur(3px)
+}
+
+.perrito3 {
+    max-width: 300px;
+    max-height: 300px;
+    filter: brightness(300%)
+}
+
+.perrito4 {
+    max-width: 300px;
+    max-height: 300px;
+    filter: contrast(100000000%);
+}
+
+.perrito5 {
+    max-width: 300px;
+    max-height: 300px;
+    filter: invert(100%);
+}
+
+.perrito6 {
+    max-width: 300px;
+    max-height: 300px;
+    filter: saturate(30%);
+}
+
+.perrito7 {
+    max-width: 300px;
+    max-height: 300px;
+    filter: hue-rotate(100deg);
+}
+
+.perrito8 {
+    max-width: 300px;
+    max-height: 300px;
+    filter: opacity(0.5);
+}
+
+.logogit {
+    max-width: 300px;
+    max-height: 300px;
+    filter: drop-shadow(5px 8px 2px rgba(0, 0, 0, 0.5));
+}
+
+.logogit2 {
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
