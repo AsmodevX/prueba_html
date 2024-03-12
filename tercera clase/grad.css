@@ -1,0 +1,19 @@
+.gradient {
+    background-image: linear-gradient(to right, red, yellow);
+    height: 40px;
+}
+
+.gradient2 {
+    background-image: linear-gradient(1deg, red, yellow);
+    height: 40px;
+}
+
+.gradient3 {
+    background-image: radial-gradient(circle, red, yellow);
+    height: 40px;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
